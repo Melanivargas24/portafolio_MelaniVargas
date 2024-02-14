@@ -1,0 +1,72 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 12 feb. 2024, 00:01:06
+    Author     : varga
+*/
+
+body {
+    font-family: sans-serif;
+    padding: 80px 20px 0;
+    background-color: white;
+}
+header {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%
+}
+
+
+a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    height: 80px;
+    margin: 100px;
+    
+}
+
+aside {
+    float:right;
+    background-color: aqua;    
+    width: 22%;
+    height: 800px;
+    margin-top: 170px;
+      
+}
+
+
+a:hover {
+    color: red;
+}
+
+img { 
+    float:left; 
+    margin-left:20px;
+    margin-right:20px;
+}
+
+pre{
+    font-family: sans-serif;
+    
+}
+
+p{
+    font-family: sans-serif;
+}
+
+footer{
+    clear:both;
+    width:100%;
+    height: 40px;
+    background-color: black;
+    
+    
+}
+
+
+
