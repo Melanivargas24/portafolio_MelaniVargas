@@ -22,3 +22,4 @@ public interface ProductoDao extends JpaRepository<Producto, Long> {
     public List<Producto> metodoNativo(@Param("precioInf") double precioInf, @Param("precioSup") double precioSup);
 
 }
+
