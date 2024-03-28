@@ -68,7 +68,7 @@ public class ProjectConfig implements WebMvcConfigurer {
         registry.addViewController("/registro/nuevo").setViewName("/registro/nuevo");
  }
     
-    /*@Bean
+    @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
                 .authorizeHttpRequests((request) -> request
@@ -99,7 +99,7 @@ public class ProjectConfig implements WebMvcConfigurer {
         return http.build();
     }
 
- El siguiente método se utiliza para completar la clase no es 
+/* El siguiente método se utiliza para completar la clase no es 
     realmente funcional, la próxima semana se reemplaza con usuarios de BD     
     @Bean
     public UserDetailsService users() {
